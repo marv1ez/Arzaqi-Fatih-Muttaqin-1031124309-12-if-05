@@ -53,7 +53,7 @@ int main() {
 Penjelasan :Program tersebut digunakan untuk menampilkan jumlah buku yang berhasil dibaca dalam rentang satu minggu. Informasi mengenai banyaknya buku setiap hari disimpan pada array **bukuPerHari**, kemudian data tersebut ditampilkan secara berurutan mulai dari hari pertama hingga hari ketujuh. Di samping itu, program sebenarnya sudah melakukan proses penjumlahan untuk mengetahui total buku yang dibaca selama seminggu, tetapi hasil akhir tersebut tidak terlihat pada layar karena belum ada perintah **cout** yang digunakan untuk menampilkan nilai total tersebut ke output.
 
 Output :
-![[1w2.png]]
+![](output2/1.png)
 
 
 
@@ -106,7 +106,7 @@ return 0;
 Penjelasan : Program tersebut digunakan untuk menampilkan harga sebuah produk sekaligus menerapkan potongan harga sebesar 10% dengan memanfaatkan pointer. Pada bagian awal, variabel **hargaProduk** diberi nilai 50.000. Sebuah pointer bernama **ptrHarga** kemudian dibuat untuk menyimpan alamat memori dari variabel tersebut menggunakan operator **&**. Program menampilkan harga awal beserta informasi alamat memorinya. Setelah itu, nilai **hargaProduk** diubah melalui pointer menggunakan perintah `*ptrHarga = *ptrHarga * 0.9`, yang berarti harga dikalikan 0,9 sebagai bentuk diskon 10%. Karena pointer bekerja langsung pada alamat memori variabel aslinya, perubahan yang dilakukan melalui pointer otomatis memengaruhi nilai **hargaProduk**. Di akhir program, harga setelah diskon ditampilkan ke layar sebagai hasil akhir.
 
 Output : 
-![[2w2.png]]
+![](output2/2.png)
 
 ### 4.3 Guided 3
 
@@ -179,7 +179,7 @@ return 0;
 
 Penjelasan : Program tersebut digunakan untuk memproses dan menampilkan nilai seorang siswa sebelum dan setelah menerima tambahan nilai (bonus). Fungsi **hitungRataRata()** bertugas menghitung rata-rata nilai dengan menggabungkan nilai tugas dan UTS menggunakan formula `(nilaiTugas + nilaiUts) / 2.0f`. Untuk menampilkan identitas serta nilai siswa, program memanfaatkan fungsi **cetakProfil()**. Selain itu, terdapat fungsi **beriNilaiBonus()** yang menambahkan nilai sebesar 5 melalui parameter referensi (**float& nilai**), sehingga perubahan langsung diterapkan pada variabel yang dikirim ke fungsi, bukan pada salinannya. Pada bagian **main()**, nama siswa diatur menjadi **"Fatih"**, dengan nilai tugas 100 dan nilai UTS 80. Setelah rata-rata dihitung dan profil awal ditampilkan, program memberikan tambahan nilai sebesar 5 poin, kemudian menampilkan kembali profil siswa untuk menunjukkan perubahan setelah bonus diberikan.
 Output : 
-![[3w2.png]]
+![](output2/3.png)
 
 
 
@@ -288,7 +288,7 @@ int main() {
 Penjelasan ::Program tersebut dirancang untuk mengelola serta menampilkan informasi stok buku dengan memanfaatkan kombinasi **array** dan **pointer**. Fungsi **cetakStok()** berperan dalam menampilkan seluruh isi array stok buku sehingga pengguna dapat melihat data secara terstruktur. Kemudian, fungsi **hitungTotalStok()** digunakan untuk menjumlahkan seluruh nilai pada elemen array guna memperoleh total stok buku yang tersedia. Fungsi **cariStokPalingSedikit()** bertugas mencari elemen dengan jumlah stok paling rendah dan mengembalikan alamat memorinya melalui pointer, sehingga elemen tersebut dapat dimodifikasi secara langsung. Selanjutnya, fungsi **tambahStokBonus()** memanfaatkan pointer yang dikembalikan dari fungsi sebelumnya untuk menambah stok sebesar 10 pada buku yang memiliki stok terendah. Di dalam fungsi **main()**, data stok awal dimasukkan ke dalam array **stokBuku**, kemudian program menampilkan stok awal, menghitung total stok, menentukan buku dengan stok paling sedikit, memberikan tambahan stok, dan akhirnya menampilkan kembali data yang telah diperbarui.
 
 Output : 
-![[4w2.png]]
+![](output2/4.png)
 
 ## 6. Kesimpulan
 Berdasarkan sejumlah contoh program C++ yang telah dipelajari, dapat disimpulkan bahwa pemahaman terhadap konsep fundamental seperti array, pointer, fungsi, parameter referensi, dan operasi aritmetika merupakan pondasi utama dalam pengembangan keterampilan pemrograman yang lebih kompleks. Array memudahkan penyimpanan dan pengelompokan data dalam jumlah banyak, sedangkan **pointer** memberikan kemampuan untuk bekerja langsung dengan alamat memori, sehingga proses manipulasi data menjadi lebih fleksibel dan efisien. Penerapan parameter referensi pada fungsi mendukung penerapan modularitas karena memungkinkan perubahan nilai variabel secara langsung tanpa perlu menciptakan duplikasi data. Di sisi lain, operasi aritmetika pada tipe data numerik seperti float mendukung proses perhitungan dengan ketelitian yang lebih baik. Ketika seluruh konsep tersebut dipahami dan diterapkan secara terpadu, seorang programmer dapat menyusun program yang lebih optimal, terstruktur rapi, serta mampu menyelesaikan permasalahan pemrograman dengan pendekatan yang efektif.
