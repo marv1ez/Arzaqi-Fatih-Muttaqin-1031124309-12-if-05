@@ -531,7 +531,7 @@ int main() {
 Penjelasan : File main.cpp berfungsi sebagai pusat eksekusi program yang menjalankan serta menguji keseluruhan implementasi struktur data Multi Linked List. Pada bagian awal, list induk dibuat dan diinisialisasi, kemudian dilanjutkan dengan proses pembuatan node induk beserta node anak melalui alokasi memori. Bagian terpenting dari file ini terletak pada proses pengaitan data, di mana setiap node anak dimasukkan langsung ke dalam list anak milik node induk tertentu melalui pointer yang sesuai, sehingga hubungan bertingkat antar data dapat terbentuk dengan jelas. Melalui proses ini, ditunjukkan bahwa masing-masing induk mampu mengelola kumpulan data anaknya sendiri secara terpisah. Seluruh struktur yang telah terbentuk kemudian ditampilkan ke layar sebagai tahap akhir untuk memastikan bahwa integrasi dan fungsi Multi Linked List berjalan dengan benar.
 
 Output : 
-![](ouput/1.png)
+![](output/1.png)
 
 
 
@@ -607,7 +607,7 @@ Setelah struktur data terbentuk, dilakukan pengecekan melalui tampilan data. Fun
 Tahap akhir adalah pengujian proses penghapusan. Program menjalankan skenario penghapusan data anak dengan memanggil fungsi deleteLastAnak pada salah satu induk. Setelah operasi tersebut, fungsi printInfo dipanggil kembali untuk memastikan bahwa data anak yang dihapus benar-benar sudah tidak ada, sementara data lain tetap tersimpan dengan baik tanpa mengalami gangguan.
 
 Output : 
-![](ouput/2.png)
+![](output/2.png)
 
 
 ### 5.2 Unguided 2
@@ -1011,8 +1011,8 @@ Penjelasan :Unguided3.cpp berfungsi sebagai pengendali utama yang menjalankan se
 Untuk mencapai susunan tersebut, file ini memperlihatkan pemanfaatan pointer secara optimal dengan mengombinasikan beberapa metode penyisipan data. Sebagian data dimasukkan melalui prosedur insertFirst untuk menempati posisi awal, sebagian lainnya menggunakan insertLast agar berada di bagian akhir, dan sisanya disisipkan di posisi tertentu di tengah list dengan bantuan insertAfter, seperti menempatkan satu mahasiswa tepat setelah mahasiswa lainnya. Setelah seluruh data tersusun, fungsi printInfo dipanggil untuk menampilkan hasil ke layar, sekaligus memastikan bahwa struktur Circular Linked List telah terbentuk dengan benar dan terhubung secara melingkar tanpa terputus.
 
 Output : 
-![](ouput/3.png)
-![](ouput/4.png)
+![](output/3.png)
+![](output/4.png)
 
 
 
